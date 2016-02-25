@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login",
+        "description": "",
+        "id": "login;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7044993398,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter password And enter email",
+            "match": {
+              "location": "StepDefinition.enter_password_And_enter_email()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345202636,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press the enter",
+            "match": {
+              "location": "StepDefinition.i_press_the_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1336449791,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login success",
+            "match": {
+              "location": "StepDefinition.login_success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2138165531,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/KaziPBZ/Documents/workspace/BDDCucumberProject/new.feature"
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5233205497,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Browser and go to Eshopper24",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 33
+                }
+              ],
+              "location": "Test_Step.i_open_Browser_and_go_to_Eshopper(int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3205879230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.open()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "purchase-product-from-eshopper24;",
+        "after": [
+          {
+            "result": {
+              "duration": 199767723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3379177187,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on menlink from the header",
+            "match": {
+              "location": "Test_Step.click_on_menlink_from_the_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 424495574,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select shoe category",
+            "match": {
+              "location": "Test_Step.select_shoe_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137490,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be redirected to shoepage",
+            "match": {
+              "location": "Test_Step.i_should_be_redirected_to_shoepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4633098770,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Browser and go to Eshopper24",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 33
+                }
+              ],
+              "location": "Test_Step.i_open_Browser_and_go_to_Eshopper(int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2037900034,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.open()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "purchase-product-from-eshopper24;",
+        "after": [
+          {
+            "result": {
+              "duration": 293316666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3593324731,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on womenlink from the header",
+            "match": {
+              "location": "Test_Step.click_on_womenlink_from_the_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2752597264,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select watches category",
+            "match": {
+              "location": "Test_Step.select_watches_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191605,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be redirected to watchespage",
+            "match": {
+              "location": "Test_Step.i_should_be_redirected_to_watchespage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4431467728,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Browser and go to Eshopper24",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 33
+                }
+              ],
+              "location": "Test_Step.i_open_Browser_and_go_to_Eshopper(int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2067953005,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.open()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "",
+        "description": "",
+        "id": "purchase-product-from-eshopper24;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 163945953,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 617772892,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Search for products \"pant\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pant",
+                  "offset": 21
+                }
+              ],
+              "location": "Test_Step.search_for_products(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2137704998,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on search button",
+            "match": {
+              "location": "Test_Step.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165356,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should get expected result",
+            "match": {
+              "location": "Test_Step.i_should_get_expected_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4437280783,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Browser and go to Eshopper24",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 33
+                }
+              ],
+              "location": "Test_Step.i_open_Browser_and_go_to_Eshopper(int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2087449427,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.open()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "",
+        "description": "",
+        "id": "purchase-product-from-eshopper24;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 256960889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 435199740,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Search for products \"shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shirt",
+                  "offset": 21
+                }
+              ],
+              "location": "Test_Step.search_for_products(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1710243780,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on search button",
+            "match": {
+              "location": "Test_Step.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90630,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should get expected result",
+            "match": {
+              "location": "Test_Step.i_should_get_expected_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4800268613,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Browser and go to Eshopper24",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 33
+                }
+              ],
+              "location": "Test_Step.i_open_Browser_and_go_to_Eshopper(int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2014629695,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.open()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "",
+        "description": "",
+        "id": "purchase-product-from-eshopper24;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 226601872,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998209542,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Search for products \"book\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "book",
+                  "offset": 21
+                }
+              ],
+              "location": "Test_Step.search_for_products(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1521960885,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on search button",
+            "match": {
+              "location": "Test_Step.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88938,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should get expected result",
+            "match": {
+              "location": "Test_Step.i_should_get_expected_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchase product from Eshopper24",
+    "description": "",
+    "id": "purchase-product-from-eshopper24",
+    "keyword": "Feature",
+    "uri": "/Users/KaziPBZ/Documents/workspace/BDDCucumberProject/file.feature"
+  }
+]

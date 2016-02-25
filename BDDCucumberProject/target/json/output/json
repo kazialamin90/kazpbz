@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "purchase-product;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 200564463,
+              "error_message": "java.lang.NullPointerException\n\tat PagestepDefinition.i_open_eshopper_com(PagestepDefinition.java:15)\n\tat ✽.Given i open eshopper24.com(/Users/KaziPBZ/Documents/workspace/BDDCucumberProject/page.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "i open eshopper24.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 15
+                }
+              ],
+              "location": "PagestepDefinition.i_open_eshopper_com(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "i click men",
+            "match": {
+              "location": "PagestepDefinition.i_click_men()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "i should be manpage",
+            "match": {
+              "location": "PagestepDefinition.i_should_be_manpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@buyproduct"
+          }
+        ]
+      }
+    ],
+    "name": "purchase product",
+    "description": "",
+    "id": "purchase-product",
+    "keyword": "Feature",
+    "uri": "/Users/KaziPBZ/Documents/workspace/BDDCucumberProject/page.feature"
+  }
+]

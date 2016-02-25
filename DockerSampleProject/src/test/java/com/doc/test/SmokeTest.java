@@ -29,14 +29,14 @@ public class SmokeTest extends BaseTest //I extended the BaseTest class so it ca
 		Thread.sleep(2000); //This will wait for 2 seconds for the page to load.
 		driver.findElement(By.xpath(".//*[@id='app']/main/div/header/div[2]/div/form/div[1]/input")).sendKeys(userName);
 		driver.findElement(By.xpath(".//*[@id='app']/main/div/header/div[2]/div/form/div[2]/input")).sendKeys(password);
-		driver.findElement(By.xpath("..//*[@id='app']/main/div/header/div[2]/div/form/div[3]/button")).click();
+		driver.findElement(By.xpath(".//*[@id='app']/main/div/header/div[2]/div/form/div[3]/button")).click();
 		Thread.sleep(2000);
 	}
 	
 	@DataProvider(name="login")
 	public Object[][] getData()
 	{
-		return new Object [][] {{"romana","1234"},{"miji","12345"}};
+		return new Object [][] {{"Bangla","s1234"},{"English","12345"}};
 	}
 	
 //verify text
